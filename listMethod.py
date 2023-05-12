@@ -26,6 +26,6 @@ def Myinsert(index, data):
     array[index] = data 
 
 def Myremove(delData):
-    for i in range(0, len(array)-1):
+    for i in range(0, len(array)):
         if array[i] == delData:
             del(array[i])
