@@ -17,3 +17,15 @@ def Myindex(findData):
         if array[i] == findData:
             print("인덱스 번호: "+ str(i))
         
+def Myinsert(index, data):
+    array.append(None)
+
+    for i in range(len(array)-1, index, -1):
+        array[i] = array[i-1]
+
+    array[index] = data 
+
+def Myremove(delData):
+    for i in range(0, len(array)-1):
+        if array[i] == delData:
+            del(array[i])
