@@ -30,6 +30,3 @@ def maxMinCheck(list):
         elif min > list[i]:
             min = list[i]
     print("최댓값: {} \n최솟값: {}".format(max, min))
-
-arr = [1,2, 3, 4, 7, 8]
-maxMinCheck(arr)
