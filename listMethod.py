@@ -8,5 +8,12 @@ def Mypop():
     print(array[len(array)-1])
     del(array[len(array)-1])
 
-Mypop()
-print(array)
+def Myreverse():
+    str = array[::-1]
+    print(str)
+
+def Myindex(findData):
+    for i in range(0, len(array)):
+        if array[i] == findData:
+            print("인덱스 번호: "+ str(i))
+        
